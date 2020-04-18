@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pLY-vW-dq2">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="xSt-dw-F4c">
+            <objects>
+                <viewController id="9UR-64-Ik1" customClass="HomeViewController" customModule="FamilyApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YVf-9P-Sbj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="F1r-Og-bZF"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="2lM-Uc-LHw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tVn-vt-KZ4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3555.072463768116" y="-353.57142857142856"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="SHa-tc-ocn">
+            <objects>
+                <navigationController storyboardIdentifier="navigationToHome" automaticallyAdjustsScrollViewInsets="NO" id="pLY-vW-dq2" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" id="JCE-Dn-bR1"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WOH-4W-n4G">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9UR-64-Ik1" kind="relationship" relationship="rootViewController" id="Jre-9w-1Kr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xfU-sD-sLC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2644.9275362318845" y="-353.57142857142856"/>
+        </scene>
+    </scenes>
+</document>

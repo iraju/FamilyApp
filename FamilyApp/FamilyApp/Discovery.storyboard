@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NYJ-bu-ZnG">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Discovery-->
+        <scene sceneID="ygb-Hj-Wga">
+            <objects>
+                <viewController id="9Ov-77-9jl" customClass="DiscoverViewController" customModule="FamilyApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SAz-6Z-v3L">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="wKG-eB-6MN"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Discovery" id="1mk-kG-Ipv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OlC-5y-xg6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3555.072463768116" y="294.64285714285711"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="p29-nR-gAI">
+            <objects>
+                <navigationController storyboardIdentifier="navigationToDiscovery" automaticallyAdjustsScrollViewInsets="NO" id="NYJ-bu-ZnG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Search" id="nwN-xF-CGk"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6Rr-xN-8D3">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9Ov-77-9jl" kind="relationship" relationship="rootViewController" id="plt-aI-TqZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h1N-9C-31p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2644.9275362318845" y="294.64285714285711"/>
+        </scene>
+    </scenes>
+</document>
