@@ -27,7 +27,7 @@
         <scene sceneID="IQh-9X-cjC">
             <objects>
                 <navigationController storyboardIdentifier="navigationToCamara" automaticallyAdjustsScrollViewInsets="NO" id="VUS-B5-da9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Camara" id="PR3-sa-gt0"/>
+                    <tabBarItem key="tabBarItem" title="Camara" image="Photo" selectedImage="Photo" id="PR3-sa-gt0"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="M9L-e4-zgF">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -43,4 +43,7 @@
             <point key="canvasLocation" x="2644.9275362318845" y="1001.7857142857142"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Photo" width="22" height="23"/>
+    </resources>
 </document>

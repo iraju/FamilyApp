@@ -5,6 +5,13 @@ target 'FamilyApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 pod 'Firebase/Analytics'
+pod 'FirebaseUI/Auth'
+
+pod 'FirebaseUI/Google'
+pod 'Firebase/Database'
+pod 'FirebaseUI/Phone'
+pod 'Firebase/Firestore'
+pod 'Firebase/Storage'
 
   # Pods for FamilyApp
 

@@ -27,7 +27,7 @@
         <scene sceneID="0tb-pa-YUu">
             <objects>
                 <navigationController storyboardIdentifier="navigationToProfile" automaticallyAdjustsScrollViewInsets="NO" id="00M-Ip-TGN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" id="uxB-A6-JVb"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="Profile" selectedImage="Profile_Selected" id="uxB-A6-JVb"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sX4-ge-LMj">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -43,4 +43,8 @@
             <point key="canvasLocation" x="2644.9275362318845" y="2536.6071428571427"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Profile" width="20" height="21"/>
+        <image name="Profile_Selected" width="20" height="21"/>
+    </resources>
 </document>
